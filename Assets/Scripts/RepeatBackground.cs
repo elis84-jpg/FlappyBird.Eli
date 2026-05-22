@@ -11,9 +11,8 @@ public class RepeatBackground : MonoBehaviour
     void Start()
     {
         startPos = transform.position;
-        repeatWidth = startPos.x - 3.5f;
+        repeatWidth = startPos.x - (GetComponent<BoxCollider2D>().size.x / 2);
     }
-
     // Update is called once per frame
     void Update()
     {
