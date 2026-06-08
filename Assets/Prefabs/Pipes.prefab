@@ -189,7 +189,7 @@ GameObject:
   - component: {fileID: 1447850546892782987}
   - component: {fileID: 8184742035409695961}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: PointTrigger
   m_TagString: Points
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
